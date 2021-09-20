@@ -6,7 +6,6 @@ import javafx.stage.Stage;
 import model.*;
 
 /**
- * JavaDocs in the javadocs package
  * @author Analy Ramirez-Berber
  */
 
