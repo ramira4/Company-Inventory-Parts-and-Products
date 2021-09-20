@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainScreenController">
+
+    <children>
+        <Label layoutX="24.0" layoutY="14.0" style="-fx-font-weight: bold;" text="Inventory Management System " />
+        <Button fx:id="exit" layoutX="815.0" layoutY="361.0" mnemonicParsing="false" onAction="#exitClicked" text="Exit" />
+        <VBox layoutX="35.0" layoutY="51.0" prefHeight="296.0" prefWidth="385.0" style="-fx-background-radius: 13px; -fx-border-radius: 5px; -fx-border-style: solid; -fx-padding: 5px;">
+            <children>
+                <HBox prefHeight="32.0" prefWidth="373.0">
+                    <children>
+                        <Label style="-fx-font-weight: bold;" text="Parts" />
+                        <TextField fx:id="partSearch" onKeyPressed="#searchPart" prefHeight="20.0" prefWidth="150.0" promptText="Search by Part ID or Name">
+                            <HBox.margin>
+                                <Insets left="140.0" />
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                </HBox>
+                <TableView fx:id="partTableView" prefHeight="222.0" prefWidth="343.0">
+                    <columns>
+                        <TableColumn fx:id="partID" prefWidth="60.0" text="ID" />
+                        <TableColumn fx:id="partName" prefWidth="75.0" text="Name" />
+                        <TableColumn fx:id="partPrice" prefWidth="75.0" text="Price" />
+                        <TableColumn fx:id="partStock" prefWidth="75.0" text="Stock" />
+                        <TableColumn fx:id="partMin" prefWidth="75.0" text="Min" />
+                        <TableColumn fx:id="partMax" prefWidth="75.0" text="Max" />
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+                <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                        <Button fx:id="partAdd" mnemonicParsing="false" onAction="#AddPartClick" text="Add" />
+                        <Button fx:id="partModify" mnemonicParsing="false" onAction="#ModifyPartClick" text="Modify" />
+                        <Button fx:id="partDelete" mnemonicParsing="false" onAction="#deletePartClick" text="Delete" />
+                    </buttons>
+                </ButtonBar>
+            </children>
+            <padding>
+                <Insets bottom="65.0" />
+            </padding>
+        </VBox>
+        <VBox layoutX="490.0" layoutY="51.0" prefHeight="296.0" prefWidth="385.0" style="-fx-background-radius: 13px; -fx-border-radius: 5px; -fx-border-style: solid; -fx-padding: 5px;">
+            <children>
+                <HBox prefHeight="31.0" prefWidth="383.0">
+                    <children>
+                        <Label style="-fx-font-weight: bold;" text="Products " />
+                        <TextField fx:id="productSearch" onKeyPressed="#searchProduct" prefHeight="20.0" prefWidth="150.0" promptText="Search by Product ID or Name">
+                            <HBox.margin>
+                                <Insets left="110.0" />
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                </HBox>
+                <TableView fx:id="productTableView" prefHeight="220.0" prefWidth="383.0">
+                    <columns>
+                        <TableColumn fx:id="productID" prefWidth="46.0" text="ID" />
+                        <TableColumn fx:id="productName" prefWidth="75.0" text="Name" />
+                        <TableColumn fx:id="productPrice" prefWidth="70.0" text="Price" />
+                        <TableColumn fx:id="productStock" prefWidth="72.0" text="Stock" />
+                        <TableColumn fx:id="productMin" text="Min" />
+                        <TableColumn fx:id="productMax" prefWidth="107.0" text="Max" />
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+                <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                        <Button fx:id="productAdd" mnemonicParsing="false" onAction="#AddProductClick" text="Add" />
+                        <Button fx:id="productModify" mnemonicParsing="false" onAction="#ModifyProductClick" text="Modify" />
+                        <Button fx:id="productDelete" mnemonicParsing="false" onAction="#deleteProductClick" text="Delete" />
+                    </buttons>
+                </ButtonBar>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
