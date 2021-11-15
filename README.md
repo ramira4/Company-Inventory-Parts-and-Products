@@ -1,2 +1,2 @@
-# InventorySystemApp
-Java inventory system application created for a business. Allows user to maintain an inventory of parts and products. The main screen includes table views for parts and products. Users may add parts, modify parts, add products with associated parts, modify those products and may also delete parts and products. Uses JavaFX.
+# Inventory System App
+Simple inventory system created with Java (using JavaFX). Functionality includes table views of parts and products in inventory with the ability to create, modify, and delete those parts and products. 
