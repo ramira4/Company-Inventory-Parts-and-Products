@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
  * Modify parts screen controller:
  * Allows user to modify selected part and select in house or outsourced
  * Alerts if invalid data is entered or if text fields are left blank
- * @author Analy Ramirez-Berber
+ * @author Ana Ramirez
  */
 public class ModifyPartController implements Initializable {
     /**
