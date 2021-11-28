@@ -1,7 +1,7 @@
 package model;
 /**
  * Product class
- * @author Analy Ramirez-Berber
+ * @author Ana Ramirez
  */
 
 import javafx.collections.FXCollections;
