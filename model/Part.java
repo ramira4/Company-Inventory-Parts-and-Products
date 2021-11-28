@@ -2,7 +2,7 @@ package model;
 
 /**
  * Supplied class Part.java
- * @author Analy Ramirez-Berber
+ * 
  */
 
 public class Part {
