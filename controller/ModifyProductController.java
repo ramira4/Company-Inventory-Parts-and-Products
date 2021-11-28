@@ -35,7 +35,7 @@ import java.util.ResourceBundle;
  * add associated parts to the product.
  * Verifies and alerts if invalid data is entered or if text fields are left blank.
  * User can remove an associated part with confirmation.
- * @author Analy Ramirez-Berber
+ * @author Ana Ramirez
  */
 public class ModifyProductController implements Initializable {
     /**
