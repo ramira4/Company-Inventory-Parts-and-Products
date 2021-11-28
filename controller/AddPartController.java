@@ -26,7 +26,7 @@ import model.Part;
  * Add parts screen controller:
  * Allows user to create new part and select in house or outsourced
  * Alerts if invalid data is entered or if text fields are left blank
- * @author Analy Ramirez-Berber
+ * @author Ana Ramirez
  */
 public class AddPartController implements Initializable {
     /**
