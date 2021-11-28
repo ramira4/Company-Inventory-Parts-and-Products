@@ -2,7 +2,7 @@ package model;
 
 /**
  * Part class
- * @author Analy Ramirez-Berber
+ * 
  */
 public class InHouse extends Part {
 
@@ -17,17 +17,13 @@ public class InHouse extends Part {
     }
 
     /**
-     * sets the machine ID
-     * @param machineId
+      * SETTER & GETTER
      */
     public void setMachineId(int machineId) {
         this.machineId = machineId;
     }
 
-    /**
-     * gets the machine ID
-     * @return
-     */
+
     public int getMachineId() {
         return machineId;
     }
