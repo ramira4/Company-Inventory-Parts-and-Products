@@ -1,7 +1,6 @@
 package model;
 /**
  * Outsourced class
- * @author Analy Ramirez-Berber
  */
 
 public class OutSourced extends Part {
