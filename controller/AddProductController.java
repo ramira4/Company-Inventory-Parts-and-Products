@@ -31,7 +31,7 @@ import java.util.ResourceBundle;
  * RUNTIME ERROR CORRECTION:
  * Alert is displayed when no part is selected to add an associated part.
  * This error occurs when a null value is passed to the addClicked() method below.
- * @author Analy Ramirez-Berber
+ * @author Ana Ramirez
  */
 
 public class AddProductController implements Initializable{
