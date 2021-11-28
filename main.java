@@ -5,9 +5,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import model.*;
 
-/**
- * @author Analy Ramirez-Berber
- */
+
 
 public class main extends Application {
 
@@ -36,7 +34,7 @@ public class main extends Application {
         return ++partId;
     }
     /**
-     * open main screen with the following parts and products in the two table views
+     * open main screen with the following parts and products already in the two table views
      * @param args
      */
     public static void main(String[] args) {
