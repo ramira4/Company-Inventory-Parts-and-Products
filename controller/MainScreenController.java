@@ -31,7 +31,7 @@ import java.awt.event.ActionEvent;
  * FUTURE ENHANCEMENT in the searchProduct() method below may include
  * searching for products with inventory levels that are
  * at the minimum inventory and will need to be restocked soon.
- * @author Analy Ramirez-Berber
+ * @author Ana Ramirez
  * */
 
 public class MainScreenController implements Initializable {
