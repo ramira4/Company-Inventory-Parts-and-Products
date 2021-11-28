@@ -1,7 +1,6 @@
 package model;
 /**
  * Inventory class
- * @author Analy Ramirez-Berber
  */
 import java.util.ArrayList;
 import javafx.collections.FXCollections;
